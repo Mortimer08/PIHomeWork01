@@ -6,4 +6,10 @@
 # - 7 -> да
 # - 1 -> нет
 
-number = input
+number = int(input('Введите число: '))
+if number>7 or number<1:
+    print('Введено некорректное значение')
+elif number == 6 or number == 7:
+    print('Да')
+else:
+    print('Нет')
